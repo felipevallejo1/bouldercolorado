@@ -1,0 +1,1202 @@
+$colorfooter: #4d2f08;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+    
+}
+main{
+    overflow: hidden;
+}
+/* header */
+header {
+    display: flex;
+    display: grid;
+    background-color: #9E5B02;
+    font-family: 'PT Serif', serif;
+    
+    grid-template-columns: repeat(4);
+    grid-template-rows: 2fr 1fr; 
+    height: 300px;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    border-radius: 10px; 
+}
+.header__logo img{
+    width: 250px;
+    height: 105%;
+    
+}
+.menu-arriba{
+    /* display: flex; */
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    font-family: 'Trispace', sans-serif;
+    font-size: 25px;
+    
+}
+.navbar{
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+
+.menu-arriba ul li a{
+    color: black;
+    text-decoration: black;
+}
+.collapse{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    justify-content: flex-start;
+    
+}
+.main{
+    overflow: hidden;
+}
+.imagenlogo{
+    position: relative;
+    bottom: 1,5rem;
+    margin: 0px;
+    grid-area: logodeboulder;
+}
+.img-fkuid-background4k{
+    grid-area: background4k;
+}
+/* CARROUSEL  */
+
+.carousel-item{
+    position: relative;
+    
+}
+.carousel-item h3{
+    width: 1000x;
+    position: absolute;
+    text-align: center;
+    bottom: 27rem;
+    color: aliceblue;
+    left: 35rem;
+    font-size: 40px;
+    background-color: rgba(61, 55, 55, 0.452);
+    padding: 2rem;
+    border-radius: 5%;
+}
+.carousel-item p{
+    width: 1800px;
+    position: absolute;
+    text-align: center;
+    bottom: 15rem;
+    color: aliceblue;
+    left: 5rem;
+    font-size: 20px;
+    background-color: rgba(61, 55, 55, 0.452);
+    padding: 2rem;
+    border-radius: 5%;
+}
+
+/* a {
+    color: blanchedalmond;
+    margin-left: 7%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 110%;
+    
+} */
+.fondo-imagen{
+    margin-bottom: -6px;
+    border:solid 1px rgb(0, 0, 0);
+    
+}
+
+.presentaciondeboulder{
+    font-family: 'Trispace', sans-serif;
+    grid-area: presentaciondeboulder;
+    background-color: #c8824f;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 1520px;
+}
+.presentacion{
+    justify-self: center;
+    align-self: center;
+    height: 20px;
+    font-family: 'Trispace', sans-serif;
+}
+.presentacion h2{
+font-size: 5rem;
+}
+
+.descripcion{
+    text-align:center;
+    font-family: 'Trispace', sans-serif;
+    font-size: 110%;
+}
+.textogranjas{
+    grid-area:textogranjas;
+    font-family: 'Trispace', sans-serif;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.titulogranjas{
+    justify-self: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.descripciongranjas{
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    align-self: center;
+    font-size: 150%;
+    
+}
+.acordeon{
+    img{
+        width: 30rem;
+        height: 25rem;
+    }
+    
+    
+}
+.cartasgranja{
+    border:solid 2px black;
+background: #cebd28;
+background: rgb(25, 27, 28);
+background: radial-gradient(circle, rgb(204, 125, 21) 0%, rgb(214, 185, 104) 50%, rgb(206, 126, 23) 100%);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+height: 840px;
+font-family: 'Trispace', sans-serif;
+}
+
+.card{
+background-color: rgb(165, 99, 23);
+position: relative;
+bottom: 10px;
+height: 530px;
+margin: 5rem;
+width: 450px;
+
+}
+
+.card img {
+height: 300px;
+opacity: 0.8;
+transform: scale(1.04);
+width: 400px;
+position: relative;
+left: 27px;
+margin-top: 2rem;
+
+}
+
+.card p {
+color: white;
+}
+
+.card h5 {
+color: rgb(255, 255, 255);
+}
+.debajoDeCartas{
+    background-color: rgb(78, 37, 8);
+    
+}
+    .debajoDeCartasImagen img{
+        border: solid 2px black;
+    }    
+    .debajoDeCartasImagen1 img{
+        border: solid 2px black; 
+    }
+
+/* .cartasgranja{
+    background: linear-gradient(90deg, rgba(148,119,37,0.9360119047619048) 0%, rgba(254,102,0,1) 100%);
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    grid-template-areas: 
+    "card10 card11 card12"
+    ;
+    height: 800px;
+}
+.card10{
+    grid-area: card10;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+    left: 2rem;
+}
+.card11{
+    grid-area: card11;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+    left: 2rem;
+}
+.card12{
+    grid-area: card12;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+    left: 2rem;
+} */
+
+
+
+
+
+.mapaxx{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.mapadeboulder iframe{
+    width: 350px;
+    height:300px;
+    border: solid 2px rgb(54, 8, 8);
+    margin-right: 1.3rem;
+    margin-top: 10px;
+
+}
+
+
+.seccionh3{
+    display: inline;
+    
+    margin: 1,3rem;
+    font-size: 1.4rem;
+    
+    
+}
+
+.contactanos{
+        
+    .a{
+        text-decoration: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.restaurantess{
+    background-color: rgb(231, 186, 109);
+    background: rgb(148,119,37);
+    background: linear-gradient(90deg, rgba(148,119,37,0.9360119047619048) 0%, rgba(254,102,0,1) 100%);   
+    }
+.restaurantess p{
+    font-size: 15px ;
+    
+}
+.cartasrestaurante{
+    
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    grid-template-areas: 
+    "card4 card5 card6"
+    ;
+    height: 800px;
+}
+
+.card4{
+    grid-area: card4;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+    left: 2rem;
+}
+.card5{
+    grid-area: card5;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+}
+.card6{
+    grid-area: card6;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+}
+
+
+
+/* hoteles */
+.hoteless{
+    display: flex;
+    justify-content: center;
+    
+}
+.textoh1{
+    align-self: flex-end;
+}
+.textoh2{
+    align-self: flex-end;
+}
+.textoh3{
+    align-self: flex-end;
+}
+
+/* Actividades */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cartasactividades{
+    background: linear-gradient(90deg, rgba(148,119,37,0.9360119047619048) 0%, rgba(254,102,0,1) 100%);
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    grid-template-areas: 
+    "card7 card8 card9"
+    ;
+    height: 800px;
+}
+.card7{
+    grid-area: card7;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+    left: 2rem;
+}
+.card8{
+    grid-area: card8;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+    left: 2rem;
+}
+.card9{
+    grid-area: card9;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+    left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hoteless p{
+    font-size: 15px ;
+    
+}
+.hoteless{
+    background: rgb(148,119,37);
+background: linear-gradient(90deg, rgba(148,119,37,0.9360119047619048) 0%, rgba(254,102,0,1) 100%);
+    
+}
+
+.cartashoteles{
+    
+    
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content:space-around;
+    grid-template-areas: 
+    "card1 card2 card3"
+    ;
+    height: 800px;
+}
+
+.card1{
+    grid-area: card1;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+    
+}
+.card2{
+    grid-area: card2;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+}
+.card3{
+    grid-area: card3;
+    padding: 20px;
+    border: solid 2px rgb(77, 73, 73);
+    position: relative;
+    top: 20px;
+    margin: 2rem;
+    background-color: aliceblue;
+}
+
+.carousel-item{
+    position: relative;
+    height: 1000px;
+}
+.carousel-item h3{
+    width: 1000x;
+    position: absolute;
+    text-align: center;
+    bottom: 27rem;
+    color: aliceblue;
+    left: 35rem;
+    font-size: 40px;
+    background-color: rgba(61, 55, 55, 0.452);
+    padding: 2rem;
+    border-radius: 5%;
+}
+.carousel-item p{
+    width: 1800px;
+    position: absolute;
+    text-align: center;
+    bottom: 15rem;
+    color: aliceblue;
+    left: 5rem;
+    font-size: 20px;
+    background-color: rgba(61, 55, 55, 0.452);
+    padding: 2rem;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOBRE BOULDER */
+.contenedorDeEspacio{
+    height: 10px;
+    background-color: #1a1515;
+}
+.wallpapersobreboulder img{
+    width: 100%;
+    opacity: 90%;
+}
+.masInfoDeBoulder{
+    background: rgb(95,120,59);
+    background: linear-gradient(90deg, rgba(95,120,59,1) 18%, rgba(130,78,26,1) 87%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "tituloboulder"
+    "foto1 textodeboulder1"
+    "tituloboulder2"
+    "textodeboulder2 foto2"
+    "tituloboulder3"
+    "foto3 textodeboulder3" 
+    ;
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 2000px;
+    
+}
+.textoDeBoulder1 h3{
+    grid-area: tituloboulder;
+    position: relative;
+    right: 930px;
+    top: 15px;
+}
+.textoDeBoulder2 h3{
+    position: relative;
+    right: 930px;
+    bottom: 50px;
+    grid-area: tituloboulder2;
+}
+.textoDeBoulder3 h3{
+    position: relative;
+    right: 930px;
+    bottom: 50px;
+    grid-area: tituloboulder3; 
+}
+.fotosDeBoulderInfo img{
+    width: 500px;
+    height: 400px;
+    border: solid 2px #212529;
+    grid-area: foto1;
+}
+
+.fotosDeBoulderInfo2 img{
+    width: 500px;
+    height: 400px;
+    border: solid 2px #212529;
+    grid-area: foto2;
+    position: relative;
+    left: 20px;
+    
+}
+.fotosDeBoulderInfo3 img{
+    width: 500px;
+    height: 400px;
+    border: solid 2px #212529;
+    position: relative;
+    left: 20px;
+    grid-area: foto3;
+}
+.fotosDeBoulderInfo{
+    position: relative;
+    top: 40px;
+    margin: 20px;
+}
+
+.arribaDeCarousel{
+    font-family: 'Poppins', sans-serif;
+    img{
+        position: relative;
+        left: 3.5rem;
+    }
+}
+.arribaDeHotel{
+    font-family: 'Poppins', sans-serif;
+    background-color: #502508;
+    border: solid 3px black;
+    display: flex;
+    p{
+        color: wheat;
+        text-align: justify;
+        justify-items: center;
+        position: relative;
+        top: 5rem;
+        width: 110vh;
+        
+        padding: 2%;
+        border-radius: 5%;
+    }
+    
+}
+.arribaDeCarouselA{
+    background-color: #4d2f08;
+    font-family: 'Poppins', sans-serif;
+                        img{
+                            position: relative;
+                            left: 4rem;
+                        }
+
+}
+.acordeon{
+    background-color: #241b15;
+    padding: 2%;
+}
+.carouselHotel{
+    border:solid 3hpx #1a1515;
+    font-family: 'Poppins', sans-serif;
+}
+.textoDeBoulder1 p{
+    grid-area: textodeboulder1;
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    color: aliceblue;
+    padding: 12,5rem;
+    align-self: center;
+    text-align: justify;
+    font-size: 20px;
+    margin: 2rem;
+}
+
+.textoDeBoulder2 p{
+    grid-area: textodeboulder2;
+    width: 800px;
+    height: 400px;
+    color: aliceblue;
+    padding: 12,5rem;
+    align-self: center;
+    text-align: justify;
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+}
+.textoDeBoulder3 p{
+    grid-area: textodeboulder3;
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    color: aliceblue;
+    padding: 12,5rem;
+    align-self: center;
+    text-align: justify;
+    font-size: 20px;
+    margin: 2rem;
+    position: relative;
+    bottom: 40px;
+}
+.btn {
+    color: #212529;
+    background-color: #7cc;
+    border-color: #5bc2c2
+}
+
+.btn-group{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    
+}
+
+
+
+
+/* 
+.mapaxx{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.mapadeboulder iframe{
+    width: 350px;
+    height:300px;
+    border: solid 2px rgb(54, 8, 8);
+    margin-right: 1.3rem;
+    margin-top: 10px;
+
+}
+ */
+
+
+/* CONTACTANOS */
+
+
+.contactanos{
+    height: 1070px;
+        
+.formularioContactanos{
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.467);
+    font-size: 1.4rem;
+    margin: 6rem;
+
+    padding: 3rem;
+    position: relative;
+    bottom: 800px;
+
+        .divh3{
+            width: 1000px;
+            height: 0px;
+            color: rgb(255, 255, 255);
+            position: relative;
+            left: 350px;
+            bottom: 200px;
+                h3{
+                    font-size: 40px;
+                
+            }
+    }    
+
+            .col-md-6{
+                    color: white;
+                    font-size: 1.6rem;
+                    }
+                .col-md-4{
+                        color: rgb(255, 255, 255);
+                        font-size: 1.6rem;
+                            }
+                    .col-md-3{
+                        color: rgb(255, 255, 255);
+                        font-size: 1.6rem;
+                    }
+                    .mb-3{
+                            color: #fff;
+                        }
+
+            .hr2{
+                border: solid 2.3px rgb(0, 0, 0);
+                color: black;
+                }
+
+            }
+    }
+
+@mixin sizes($width, $height)  {
+    height: $height;
+    width: $width;
+}
+
+    footer{
+        grid-area: footer;
+        border: solid black;
+        height: 300px;
+        width: 1894px;
+        font-family: 'Poppins', sans-serif;
+        .img-logo{
+            width: 110px;
+        }
+        
+            .containerFooter{
+                    li{
+                    font-size: 25px;
+                    }
+                        a{
+                            font-size: 20px;
+                            text-decoration: none;
+                        }
+    
+    }
+    .redes-sociales{
+        
+        .redes-sociales ul li :hover{
+            transform: scale(1.2, 1.2);
+            
+        }
+        ul li{
+            @include sizes(50px, 50px);
+            display: inline-block;
+            margin:  5px;
+            
+                a{
+                    display: block;
+                    padding: 0 10px;
+                    background-color: #333;
+                    color: #fff;
+                    line-height: 50px;
+                    font-size: 18px;
+                    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+                    transition: .2s;
+                    position: relative;
+                    bottom: 10rem;
+                    left: 100rem;
+            }
+            
+        }
+        
+        
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) and (min-width: 320px){
+    
+header{
+    display: grid;
+    grid-template-columns:100px 100px;
+    grid-template-rows: repeat(6, 100px );
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "logodeboulder"
+        "navega"
+    ;
+    width: 100%;
+}
+.header__logo img{
+    position: relative;
+    left: 8rem;
+    
+    
+}
+.menu-arriba{
+    position: relative;
+    bottom: 120px;
+}
+.navbar{
+    position: relative;
+    bottom: 2rem;
+}
+.presentaciondeboulder{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "presentacion"
+    "descripcion"
+    
+}
+
+.textogranjas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "titulogranjas"
+    "descripciongranjas"
+    
+}
+
+.titulogranjas{
+    display: flex;
+    
+    
+}
+
+.titulogranjas h2{
+   justify-self: center;
+   text-align: center;
+}
+
+.carouselIndex{
+    display: flex;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+
+.carousel-item{
+    position: relative;
+    
+}
+.carousel-item h3{
+    width: 400px;
+    position: absolute;
+    text-align:center;
+    
+    color: aliceblue;
+    
+    font-size: 25px;
+    background-color: rgba(61, 55, 55, 0.452);
+    padding: 2rem;
+    border-radius: 5%;
+}
+.carousel-item p{
+    width: 200px;
+    position: relative;
+    text-align: center;
+    bottom: 850px;
+    color: aliceblue;
+    right: 40px;
+    font-size: 13px;
+    background-color: rgba(61, 55, 55, 0.452);
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.presentaciondeboulder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        width: 320px;
+        
+    }
+    .presentacion{
+        
+        align-self: flex-start;
+        justify-self: flex-start;
+        position: relative;
+        bottom: 20rem;
+    }
+    .presentacion h2{
+        text-align: center;
+        font-size: 60px;
+    }
+    .descripcion{
+        width: 320px;
+        text-align: center;
+        flex-wrap: wrap;
+        align-self: flex-start;
+    }
+    
+.videopresentacion
+{
+    display: none;
+}
+
+
+.card10{
+    display: none;
+}
+
+.card11{
+    display: none;
+   
+}
+.card12{
+    display: none;
+    
+}
+footer{
+        width: 320px;
+        height: 420px;
+}
+.containerFooter{
+    display: flex;
+    .uno-dos{
+        
+        font-size: 15px;
+        position: relative;
+        top: 160px;
+        right: 60px;
+        display: inline;
+        justify-content: space-between;
+        color: cadetblue;
+        margin: 2rem;
+    
+        
+    }
+    .uno-tres{
+        
+        font-size: 15px;
+        position: relative;
+        top: 160px;
+        right: 5px;
+        display: inline;
+        justify-content: space-between;
+        color: cadetblue;
+        margin: 2rem;
+    
+        
+    }
+    .dos-tres{
+        font-size: 10px;
+        position: relative;
+        right: 60px;
+        top: 140px;
+        
+    }
+    .dos-cuatro{
+        font-size: 10px;
+        position: relative;
+        right: 10px;
+        top: 140px;
+        
+    }
+    .sobreboulder123{
+        width: 200px;
+    }
+}
+.mapadeboulder iframe{
+    width: 200px;
+    height: 200px;
+}
+.redes-sociales{
+    display: flex;
+    display: none;
+}
+.redes-sociales ul li a{
+    display: none;
+}
+}
+
+
+
