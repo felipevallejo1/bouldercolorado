@@ -19,7 +19,7 @@ header {
   font-family: 'PT Serif', serif;
   grid-template-columns: repeat(4);
   grid-template-rows: 2fr 1fr;
-  height: 300px; }
+  height: 18.75rem; }
 
 .header__logo {
   display: flex;
@@ -28,16 +28,16 @@ header {
   border-radius: 10px; }
 
 .header__logo img {
-  width: 250px;
+  width: 15.625rem;
   height: 105%; }
 
 .menu-arriba {
   /* display: flex; */
   flex-direction: column;
   position: relative;
-  top: 20px;
+  top: 1.25rem;
   font-family: 'Trispace', sans-serif;
-  font-size: 25px; }
+  font-size: 1.563rem; }
 
 .navbar {
   display: flex;
@@ -51,7 +51,7 @@ header {
 .collapse {
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   justify-content: flex-start; }
 
 .main {
@@ -59,7 +59,7 @@ header {
 
 .imagenlogo {
   position: relative;
-  bottom: 1,5rem;
+  bottom: 1, 5rem;
   margin: 0px;
   grid-area: logodeboulder; }
 
@@ -71,25 +71,25 @@ header {
   position: relative; }
 
 .carousel-item h3 {
-  width: 1000x;
+  /* width: 1000x; */
   position: absolute;
   text-align: center;
   bottom: 27rem;
   color: aliceblue;
   left: 35rem;
-  font-size: 40px;
+  font-size: 2.5rem;
   background-color: rgba(61, 55, 55, 0.452);
   padding: 2rem;
   border-radius: 5%; }
 
 .carousel-item p {
-  width: 1800px;
+  width: 112.5rem;
   position: absolute;
   text-align: center;
   bottom: 15rem;
   color: aliceblue;
   left: 5rem;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: rgba(61, 55, 55, 0.452);
   padding: 2rem;
   border-radius: 5%; }
@@ -103,8 +103,12 @@ header {
     
 } */
 .fondo-imagen {
-  margin-bottom: -6px;
+  margin-bottom: -0.375rem;
   border: solid 1px black; }
+
+.videopresentacion {
+  position: relative;
+  left: 1.5rem; }
 
 .presentaciondeboulder {
   font-family: 'Trispace', sans-serif;
@@ -114,12 +118,12 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
-  height: 1520px; }
+  height: 95rem; }
 
 .presentacion {
   justify-self: center;
   align-self: center;
-  height: 20px;
+  height: 1.25rem;
   font-family: 'Trispace', sans-serif; }
 
 .presentacion h2 {
@@ -137,48 +141,35 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr; }
-
-.titulogranjas {
-  justify-self: center;
-  font-size: 2rem;
-  margin-top: 2rem; }
-
-.descripciongranjas {
-  font-family: 'Trispace', sans-serif;
-  text-align: center;
-  align-self: center;
-  font-size: 150%; }
+  .textogranjas .titulogranjas {
+    justify-self: center;
+    font-size: 2rem;
+    margin-top: 2rem; }
+  .textogranjas .descripciongranjas {
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    align-self: center;
+    font-size: 150%; }
 
 .acordeon img {
   width: 30rem;
   height: 25rem; }
 
-.cartasgranja {
-  border: solid 2px black;
-  background: #cebd28;
-  background: #191b1c;
-  background: radial-gradient(circle, #cc7d15 0%, #d6b968 50%, #ce7e17 100%);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  height: 840px;
-  font-family: 'Trispace', sans-serif; }
-
 .card {
   background-color: #a56317;
   position: relative;
-  bottom: 10px;
-  height: 530px;
+  bottom: 0.625rem;
+  height: 33.125rem;
   margin: 5rem;
-  width: 450px; }
+  width: 28.125rem; }
 
 .card img {
-  height: 300px;
+  height: 18.75rem;
   opacity: 0.8;
   transform: scale(1.04);
-  width: 400px;
+  width: 25rem;
   position: relative;
-  left: 27px;
+  left: 1.688rem;
   margin-top: 2rem; }
 
 .card p {
@@ -196,245 +187,50 @@ header {
 .debajoDeCartasImagen1 img {
   border: solid 2px black; }
 
-/* .cartasgranja{
-    background: linear-gradient(90deg, rgba(148,119,37,0.9360119047619048) 0%, rgba(254,102,0,1) 100%);
-    display: flex;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-around;
-    grid-template-areas: 
-    "card10 card11 card12"
-    ;
-    height: 800px;
-}
-.card10{
-    grid-area: card10;
-    padding: 20px;
-    border: solid 2px rgb(77, 73, 73);
-    position: relative;
-    top: 20px;
-    margin: 2rem;
-    background-color: aliceblue;
-    left: 2rem;
-}
-.card11{
-    grid-area: card11;
-    padding: 20px;
-    border: solid 2px rgb(77, 73, 73);
-    position: relative;
-    top: 20px;
-    margin: 2rem;
-    background-color: aliceblue;
-    left: 2rem;
-}
-.card12{
-    grid-area: card12;
-    padding: 20px;
-    border: solid 2px rgb(77, 73, 73);
-    position: relative;
-    top: 20px;
-    margin: 2rem;
-    background-color: aliceblue;
-    left: 2rem;
-} */
-.mapaxx {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; }
-
-.mapadeboulder iframe {
-  width: 350px;
-  height: 300px;
-  border: solid 2px #360808;
-  margin-right: 1.3rem;
-  margin-top: 10px; }
-
 .seccionh3 {
   display: inline;
-  margin: 1,3rem;
+  margin: 1, 3rem;
   font-size: 1.4rem; }
 
 .contactanos .a {
   text-decoration: none; }
 
-.restaurantess {
-  background-color: #e7ba6d;
-  background: #947725;
-  background: linear-gradient(90deg, rgba(148, 119, 37, 0.936012) 0%, #fe6600 100%); }
-
-.restaurantess p {
-  font-size: 15px; }
-
-.cartasrestaurante {
-  display: flex;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-content: space-around;
-  grid-template-areas: "card4 card5 card6";
-  height: 800px; }
-
-.card4 {
-  grid-area: card4;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue;
-  left: 2rem; }
-
-.card5 {
-  grid-area: card5;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue; }
-
-.card6 {
-  grid-area: card6;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue; }
-
 /* hoteles */
-.hoteless {
-  display: flex;
-  justify-content: center; }
-
-.textoh1 {
-  align-self: flex-end; }
-
-.textoh2 {
-  align-self: flex-end; }
-
-.textoh3 {
-  align-self: flex-end; }
-
 /* Actividades */
-.cartasactividades {
-  background: linear-gradient(90deg, rgba(148, 119, 37, 0.936012) 0%, #fe6600 100%);
-  display: flex;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-content: space-around;
-  grid-template-areas: "card7 card8 card9";
-  height: 800px; }
-
-.card7 {
-  grid-area: card7;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue;
-  left: 2rem; }
-
-.card8 {
-  grid-area: card8;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue;
-  left: 2rem; }
-
-.card9 {
-  grid-area: card9;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue;
-  left: 2rem; }
-
-.hoteless p {
-  font-size: 15px; }
-
-.hoteless {
-  background: #947725;
-  background: linear-gradient(90deg, rgba(148, 119, 37, 0.936012) 0%, #fe6600 100%); }
-
-.cartashoteles {
-  display: flex;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-content: space-around;
-  grid-template-areas: "card1 card2 card3";
-  height: 800px; }
-
-.card1 {
-  grid-area: card1;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue; }
-
-.card2 {
-  grid-area: card2;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue; }
-
-.card3 {
-  grid-area: card3;
-  padding: 20px;
-  border: solid 2px #4d4949;
-  position: relative;
-  top: 20px;
-  margin: 2rem;
-  background-color: aliceblue; }
-
 .carousel-item {
   position: relative;
-  height: 1000px; }
+  height: 62.5rem; }
 
 .carousel-item h3 {
-  width: 1000x;
+  /* width: 1000x; */
   position: absolute;
   text-align: center;
   bottom: 27rem;
   color: aliceblue;
   left: 35rem;
-  font-size: 40px;
+  font-size: 2.5rem;
   background-color: rgba(61, 55, 55, 0.452);
   padding: 2rem;
   border-radius: 5%; }
 
 .carousel-item p {
-  width: 1800px;
+  width: 112.5rem;
   position: absolute;
   text-align: center;
   bottom: 15rem;
   color: aliceblue;
   left: 5rem;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: rgba(61, 55, 55, 0.452);
   padding: 2rem;
   border-radius: 5%; }
 
 /* SOBRE BOULDER */
 .contenedorDeEspacio {
-  height: 10px;
+  height: 0.625rem;
   background-color: #1a1515; }
 
-.wallpapersobreboulder img {
+.wallpaperSobreBoulder img {
   width: 100%;
   opacity: 90%; }
 
@@ -446,52 +242,52 @@ header {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "tituloboulder" "foto1 textodeboulder1" "tituloboulder2" "textodeboulder2 foto2" "tituloboulder3" "foto3 textodeboulder3";
   font-family: 'Nanum Gothic', sans-serif;
-  height: 2000px; }
+  height: 125rem; }
 
 .textoDeBoulder1 h3 {
   grid-area: tituloboulder;
   position: relative;
-  right: 930px;
-  top: 15px; }
+  right: 58.125rem;
+  top: 0.938rem; }
 
 .textoDeBoulder2 h3 {
   position: relative;
-  right: 930px;
-  bottom: 50px;
+  right: 58.125rem;
+  bottom: 3.125rem;
   grid-area: tituloboulder2; }
 
 .textoDeBoulder3 h3 {
   position: relative;
-  right: 930px;
-  bottom: 50px;
+  right: 58.125rem;
+  bottom: 3.125rem;
   grid-area: tituloboulder3; }
 
 .fotosDeBoulderInfo img {
-  width: 500px;
-  height: 400px;
+  width: 31.25rem;
+  height: 25rem;
   border: solid 2px #212529;
   grid-area: foto1; }
 
 .fotosDeBoulderInfo2 img {
-  width: 500px;
-  height: 400px;
+  width: 31.25rem;
+  height: 25rem;
   border: solid 2px #212529;
   grid-area: foto2;
   position: relative;
-  left: 20px; }
+  left: 1.25rem; }
 
 .fotosDeBoulderInfo3 img {
-  width: 500px;
-  height: 400px;
+  width: 31.25rem;
+  height: 25rem;
   border: solid 2px #212529;
   position: relative;
-  left: 20px;
+  left: 1.25rem;
   grid-area: foto3; }
 
 .fotosDeBoulderInfo {
   position: relative;
-  top: 40px;
-  margin: 20px; }
+  top: 2.5rem;
+  margin: 1.25rem; }
 
 .arribaDeCarousel {
   font-family: 'Poppins', sans-serif; }
@@ -531,41 +327,41 @@ header {
 
 .textoDeBoulder1 p {
   grid-area: textodeboulder1;
-  width: 800px;
-  height: 400px;
-  margin-top: 20px;
+  width: 50rem;
+  height: 25rem;
+  margin-top: 1.25rem;
   color: aliceblue;
-  padding: 12,5rem;
+  padding: 12, 5rem;
   align-self: center;
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 2rem; }
 
 .textoDeBoulder2 p {
   grid-area: textodeboulder2;
-  width: 800px;
-  height: 400px;
+  width: 50rem;
+  height: 25rem;
   color: aliceblue;
-  padding: 12,5rem;
+  padding: 12, 5rem;
   align-self: center;
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.25rem;
   position: relative;
-  bottom: 50px; }
+  bottom: 3.125rem; }
 
 .textoDeBoulder3 p {
   grid-area: textodeboulder3;
-  width: 800px;
-  height: 400px;
-  margin-top: 20px;
+  width: 50rem;
+  height: 25rem;
+  margin-top: 1.25rem;
   color: aliceblue;
-  padding: 12,5rem;
+  padding: 12, 5rem;
   align-self: center;
   text-align: justify;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 2rem;
   position: relative;
-  bottom: 40px; }
+  bottom: 2.50rem; }
 
 .btn {
   color: #212529;
@@ -576,24 +372,9 @@ header {
   font-family: 'Poppins', sans-serif;
   position: relative; }
 
-/* 
-.mapaxx{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-.mapadeboulder iframe{
-    width: 350px;
-    height:300px;
-    border: solid 2px rgb(54, 8, 8);
-    margin-right: 1.3rem;
-    margin-top: 10px;
-
-}
- */
 /* CONTACTANOS */
 .contactanos {
-  height: 1070px; }
+  height: 66.875rem; }
   .contactanos .formularioContactanos {
     border: solid 1px white;
     border-radius: 7px;
@@ -602,16 +383,16 @@ header {
     margin: 6rem;
     padding: 3rem;
     position: relative;
-    bottom: 800px; }
+    bottom: 50rem; }
     .contactanos .formularioContactanos .divh3 {
-      width: 1000px;
+      width: 62.5rem;
       height: 0px;
       color: white;
       position: relative;
-      left: 350px;
-      bottom: 200px; }
+      left: 21.875rem;
+      bottom: 12.5rem; }
       .contactanos .formularioContactanos .divh3 h3 {
-        font-size: 40px; }
+        font-size: 2.5rem; }
     .contactanos .formularioContactanos .col-md-6 {
       color: white;
       font-size: 1.6rem; }
@@ -630,16 +411,23 @@ header {
 footer {
   grid-area: footer;
   border: solid black;
-  height: 300px;
-  width: 1894px;
+  height: 18.75rem;
+  width: 119.97rem;
   font-family: 'Poppins', sans-serif; }
   footer .img-logo {
-    width: 110px; }
-  footer .containerFooter li {
-    font-size: 25px; }
-  footer .containerFooter a {
-    font-size: 20px;
-    text-decoration: none; }
+    width: 6.875rem; }
+  footer .containerFooter {
+    display: flex; }
+    footer .containerFooter li {
+      font-size: 25px; }
+    footer .containerFooter a {
+      font-size: 20px;
+      text-decoration: none; }
+    footer .containerFooter .uno-tres {
+      align-items: center; }
+    footer .containerFooter .dos-cuatro {
+      position: relative;
+      left: 0.688rem; }
   footer .redes-sociales .redes-sociales ul li :hover {
     transform: scale(1.2, 1.2); }
   footer .redes-sociales ul li {
@@ -670,7 +458,7 @@ footer {
     width: 100%; }
   .header__logo img {
     position: relative;
-    left: 8rem; }
+    left: 50%; }
   .menu-arriba {
     position: relative;
     bottom: 120px; }
@@ -682,7 +470,12 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "presentacion" "descripcion"; }
+  .acordeon img {
+    width: 100%; }
+  .carouselActividades {
+    display: flex; }
   .textogranjas {
+    height: 1200px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -701,7 +494,7 @@ footer {
   .carousel-item {
     position: relative; }
   .carousel-item h3 {
-    width: 400px;
+    width: 25rem;
     position: absolute;
     text-align: center;
     color: aliceblue;
@@ -710,13 +503,13 @@ footer {
     padding: 2rem;
     border-radius: 5%; }
   .carousel-item p {
-    width: 200px;
+    width: 12.5rem;
     position: relative;
     text-align: center;
-    bottom: 850px;
+    bottom: 53.125rem;
     color: aliceblue;
-    right: 40px;
-    font-size: 13px;
+    right: 2.5rem;
+    font-size: 14px;
     background-color: rgba(61, 55, 55, 0.452);
     padding: 1rem;
     border-radius: 5%; }
@@ -725,7 +518,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 320px; }
+    width: 20rem; }
   .presentacion {
     align-self: flex-start;
     justify-self: flex-start;
@@ -735,7 +528,7 @@ footer {
     text-align: center;
     font-size: 60px; }
   .descripcion {
-    width: 320px;
+    width: 20rem;
     text-align: center;
     flex-wrap: wrap;
     align-self: flex-start; }
@@ -748,15 +541,122 @@ footer {
   .card12 {
     display: none; }
   footer {
-    width: 320px;
-    height: 420px; }
+    width: 20rem;
+    height: 26.25rem; }
+  .paraMoverCarta {
+    position: relative;
+    bottom: 2rem; }
+  .arribaDeCarouselA {
+    height: 1800px; }
+  .card {
+    overflow: hidden;
+    width: 90%;
+    right: 4rem;
+    top: 20px; }
+    .card h5 {
+      font-size: 2vh; }
+    .card p {
+      font-size: 1.3vh; }
+    .card .imgH {
+      position: relative;
+      right: 3rem; }
+      .card .imgH img {
+        width: 90%; }
+  .masInfoDeBoulder {
+    height: 160rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "fotoSb1" "textoSb1" "fotoSb2" "textoSb2" "fotoSb3" "textoSb3"; }
+    .masInfoDeBoulder .fotosDeBoulderInfo {
+      grid-area: fotoSb1; }
+      .masInfoDeBoulder .fotosDeBoulderInfo img {
+        width: 88%; }
+    .masInfoDeBoulder .textoDeBoulder1 {
+      grid-area: textoSb1; }
+      .masInfoDeBoulder .textoDeBoulder1 p {
+        width: 18rem;
+        height: 100px;
+        font-size: 12px;
+        position: relative;
+        right: 1.2rem;
+        bottom: 2rem; }
+    .masInfoDeBoulder .fotosDeBoulderInfo2 {
+      grid-area: fotoSb2; }
+      .masInfoDeBoulder .fotosDeBoulderInfo2 img {
+        width: 78%;
+        position: relative;
+        bottom: 6rem; }
+    .masInfoDeBoulder .textoDeBoulder2 {
+      grid-area: textoSb2; }
+      .masInfoDeBoulder .textoDeBoulder2 p {
+        width: 18rem;
+        height: 100px;
+        font-size: 12px;
+        position: relative;
+        bottom: 11rem;
+        left: 1rem; }
+    .masInfoDeBoulder .fotosDeBoulderInfo3 {
+      grid-area: fotoSb3; }
+      .masInfoDeBoulder .fotosDeBoulderInfo3 img {
+        width: 78%;
+        position: relative;
+        bottom: 9rem; }
+    .masInfoDeBoulder .textoDeBoulder3 {
+      grid-area: textoSb3; }
+      .masInfoDeBoulder .textoDeBoulder3 p {
+        font-size: 11px;
+        height: 100px;
+        width: 18rem;
+        position: relative;
+        bottom: 12rem;
+        right: 1.3rem; }
+  .wallpaperSobreBoulder img {
+    width: 20rem; }
+  .arribaDeHotel {
+    height: 1500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "imagen1H" "textoH1" "imagen1H2"; }
+    .arribaDeHotel .imagen1H {
+      grid-area: imagen1H; }
+      .arribaDeHotel .imagen1H img {
+        width: 19.625rem; }
+    .arribaDeHotel .imagen1H2 {
+      grid-area: imagen1H2; }
+      .arribaDeHotel .imagen1H2 img {
+        width: 19.625rem;
+        position: relative;
+        top: 2rem; }
+    .arribaDeHotel .textoH23 {
+      grid-area: textoH1;
+      width: 18.75rem;
+      height: 80%;
+      height: 200px;
+      font-size: 10px; }
+  .contactanos img {
+    height: 400px; }
+  .formularioContactanos {
+    width: 19.375rem;
+    position: relative;
+    top: 3rem;
+    right: 5.5rem; }
+    .formularioContactanos h3 {
+      position: relative;
+      bottom: 9rem;
+      right: 24rem;
+      width: 18rem;
+      text-align: center; }
+  footer {
+    width: 100%; }
   .containerFooter {
     display: flex; }
     .containerFooter .uno-dos {
       font-size: 15px;
       position: relative;
-      top: 160px;
-      right: 60px;
+      top: 10rem;
+      right: 3.75rem;
       display: inline;
       justify-content: space-between;
       color: cadetblue;
@@ -768,7 +668,277 @@ footer {
       right: 5px;
       display: inline;
       justify-content: space-between;
+      color: #67a4a7;
+      margin: 2rem; }
+    .containerFooter .dos-tres {
+      font-size: 10px;
+      position: relative;
+      right: 60px;
+      top: 140px; }
+    .containerFooter .dos-cuatro {
+      font-size: 10px;
+      position: relative;
+      right: 10px;
+      top: 140px; }
+    .containerFooter .sobreboulder123 {
+      width: 200px; }
+  .mapadeboulder iframe {
+    width: 200px;
+    height: 200px; }
+  .redes-sociales {
+    display: flex;
+    display: none; }
+  .redes-sociales ul li a {
+    display: none; } }
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: 6.25rem 6.25rem;
+    grid-template-rows: repeat(6, 6.25rem);
+    grid-gap: 1rem;
+    grid-template-areas: "logodeboulder" "navega";
+    width: 100%; }
+  .header__logo img {
+    position: relative;
+    left: 130%; }
+  .menu-arriba {
+    position: relative;
+    bottom: 120px; }
+  .navbar {
+    position: relative;
+    bottom: 2rem; }
+  .presentaciondeboulder {
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "presentacion" "descripcion"; }
+    .presentaciondeboulder h2 {
+      width: 47.375rem; }
+    .presentaciondeboulder p {
+      width: 47.375rem; }
+  .acordeon img {
+    width: 45vh; }
+  .acordeon p {
+    height: 300px;
+    font-size: 17px; }
+  .carouselActividades {
+    display: flex; }
+  .textogranjas {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "titulogranjas" "descripciongranjas"; }
+  .titulogranjas {
+    display: flex; }
+  .titulogranjas h2 {
+    justify-self: center;
+    text-align: center; }
+  .carouselIndex {
+    display: flex; }
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 420px; }
+  .carousel-item {
+    position: relative; }
+  .carousel-item h3 {
+    width: 30rem;
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    background-color: rgba(61, 55, 55, 0.452);
+    padding: 2rem;
+    border-radius: 5%; }
+  .carousel-item p {
+    width: 17rem;
+    position: relative;
+    text-align: center;
+    bottom: 54.125rem;
+    color: aliceblue;
+    left: 16rem;
+    font-size: 16px;
+    background-color: rgba(61, 55, 55, 0.452);
+    padding: 1rem;
+    border-radius: 5%; }
+  .presentaciondeboulder {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem; }
+  .presentacion {
+    align-self: flex-start;
+    justify-self: flex-start;
+    position: relative;
+    bottom: 20rem; }
+  .presentacion h2 {
+    position: relative;
+    top: 12rem;
+    text-align: center;
+    font-size: 60px; }
+  .descripcion {
+    width: 20rem;
+    text-align: center;
+    flex-wrap: wrap;
+    align-self: flex-start; }
+  .videopresentacion {
+    display: none; }
+  .card10 {
+    display: none; }
+  .card11 {
+    display: none; }
+  .card12 {
+    display: none; }
+  footer {
+    width: 20rem;
+    height: 26.25rem; }
+  .paraMoverCarta {
+    position: relative;
+    bottom: 2rem; }
+  .arribaDeCarouselA {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr; }
+    .arribaDeCarouselA .card-group {
+      height: 1800px; }
+    .arribaDeCarouselA .card {
+      overflow: hidden;
+      width: 740px;
+      height: 32%;
+      right: 4rem;
+      top: 20px;
+      grid-area: card1234; }
+      .arribaDeCarouselA .card h5 {
+        font-size: 2vh; }
+      .arribaDeCarouselA .card p {
+        font-size: 1.2vh; }
+      .arribaDeCarouselA .card .imgH {
+        position: relative;
+        right: 3.3rem; }
+        .arribaDeCarouselA .card .imgH img {
+          position: relative;
+          width: 90%;
+          padding: 1%;
+          right: 5rem; }
+  .masInfoDeBoulder {
+    height: 160rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "fotoSb1" "textoSb1" "fotoSb2" "textoSb2" "fotoSb3" "textoSb3"; }
+    .masInfoDeBoulder .fotosDeBoulderInfo {
+      grid-area: fotoSb1;
+      position: relative;
+      left: 2rem; }
+      .masInfoDeBoulder .fotosDeBoulderInfo img {
+        width: 88%; }
+    .masInfoDeBoulder .textoDeBoulder1 {
+      grid-area: textoSb1; }
+      .masInfoDeBoulder .textoDeBoulder1 p {
+        width: 40rem;
+        height: 100px;
+        font-size: 16px;
+        position: relative;
+        left: 2rem;
+        bottom: 2rem; }
+    .masInfoDeBoulder .fotosDeBoulderInfo2 {
+      grid-area: fotoSb2;
+      position: relative;
+      left: 2rem; }
+      .masInfoDeBoulder .fotosDeBoulderInfo2 img {
+        width: 85%;
+        position: relative;
+        bottom: 6rem; }
+    .masInfoDeBoulder .textoDeBoulder2 {
+      grid-area: textoSb2; }
+      .masInfoDeBoulder .textoDeBoulder2 p {
+        width: 40rem;
+        height: 100px;
+        font-size: 16px;
+        position: relative;
+        bottom: 11rem;
+        left: 3rem; }
+    .masInfoDeBoulder .fotosDeBoulderInfo3 {
+      grid-area: fotoSb3;
+      position: relative;
+      left: 1.7rem;
+      bottom: 6rem; }
+      .masInfoDeBoulder .fotosDeBoulderInfo3 img {
+        width: 85%;
+        position: relative;
+        bottom: 9rem; }
+    .masInfoDeBoulder .textoDeBoulder3 {
+      grid-area: textoSb3; }
+      .masInfoDeBoulder .textoDeBoulder3 p {
+        font-size: 16px;
+        height: 100px;
+        width: 40rem;
+        position: relative;
+        bottom: 16rem;
+        left: 1rem; }
+  .wallpaperSobreBoulder img {
+    width: 100%; }
+  .arribaDeHotel {
+    height: 3000px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "imagen1H" "textoH1" "imagen1H2"; }
+    .arribaDeHotel .imagen1H {
+      grid-area: imagen1H; }
+      .arribaDeHotel .imagen1H img {
+        width: 100%; }
+    .arribaDeHotel .imagen1H2 {
+      grid-area: imagen1H2; }
+      .arribaDeHotel .imagen1H2 img {
+        width: 100%; }
+    .arribaDeHotel .textoH23 {
+      grid-area: textoH1;
+      width: 45rem;
+      height: 200px;
+      font-size: 16px;
+      position: relative;
+      left: 1.5rem; }
+  .contactanos img {
+    height: 1070px; }
+  .formularioContactanos {
+    width: 40rem;
+    position: relative;
+    bottom: 16rem;
+    right: 3rem; }
+    .formularioContactanos h3 {
+      position: relative;
+      bottom: 2rem;
+      right: 20rem;
+      width: 30rem;
+      text-align: center; }
+  footer {
+    width: 100%; }
+  .containerFooter {
+    display: flex; }
+    .containerFooter .uno-dos {
+      font-size: 15px;
+      position: relative;
+      top: 10rem;
+      right: 3.75rem;
+      display: inline;
+      justify-content: space-between;
       color: cadetblue;
+      margin: 2rem; }
+    .containerFooter .uno-tres {
+      font-size: 15px;
+      position: relative;
+      top: 160px;
+      right: 5px;
+      display: inline;
+      justify-content: space-between;
+      color: #67a4a7;
       margin: 2rem; }
     .containerFooter .dos-tres {
       font-size: 10px;
