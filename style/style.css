@@ -177,8 +177,9 @@ header {
   transform: scale(1.04);
   width: 25rem;
   position: relative;
-  right: 6rem;
-  margin-top: 2rem; }
+  /* right: 6rem; */
+  margin-top: 2rem;
+  left: 2rem; }
 
 .imgH {
   position: relative;
