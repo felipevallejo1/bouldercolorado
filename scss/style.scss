@@ -169,14 +169,17 @@ header {
     border: solid 1px rgb(0, 0, 0);
 
 }
-.videopresentacion{
+
+.videopresentacion {
     position: relative;
     left: 1.5rem;
-                iframe{
-                    width: 95%;
-                    height: 700px;
-                }
+
+    iframe {
+        width: 95%;
+        height: 700px;
+    }
 }
+
 .presentaciondeboulder {
     font-family: 'Trispace', sans-serif;
     grid-area: presentaciondeboulder;
@@ -213,19 +216,19 @@ header {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 
-        .titulogranjas {
-            justify-self: center;
-            font-size: 2rem;
-            margin-top: 2rem;
-                        }
-        
-                        .descripciongranjas {
-                            font-family: 'Trispace', sans-serif;
-                            text-align: center;
-                            align-self: center;
-                            font-size: 150%;
-                        
-                        }            
+    .titulogranjas {
+        justify-self: center;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .descripciongranjas {
+        font-family: 'Trispace', sans-serif;
+        text-align: center;
+        align-self: center;
+        font-size: 150%;
+
+    }
 
 }
 
@@ -250,6 +253,7 @@ header {
     height: 37.125rem;
     margin: 5rem;
     width: 28.125rem;
+
     p {
         color: white;
         font-size: 1px;
@@ -267,7 +271,8 @@ header {
     margin-top: 2rem;
     left: 2rem;
 }
-.imgH{
+
+.imgH {
     position: relative;
     right: 0.7rem;
 }
@@ -364,14 +369,14 @@ header {
     position: relative;
     height: 62.5rem;
     display: flex;
-    
+
 }
 
 .carousel-item h3 {
     width: 70%;
     position: absolute;
     text-align: center;
-    
+
     bottom: 27rem;
     color: aliceblue;
     /* left: 25rem; */
@@ -514,26 +519,29 @@ header {
     grid-template-rows: 1fr;
     height: 1000px;
     overflow: hidden;
-        .textoH23{
-                color: wheat;
-                text-align: justify;
-                justify-items: center;
-                position: relative;
-                top: 2rem;
-                width: 110vh;
-                height: 64.034151547492vh;
-                padding: 2%;
-                border-radius: 5%;
-                font-size: 1rem;
-                }
-                .imagen1H img{
-                    height: 1000px;
-                    width: 105%;
-                }  
-                .imagen1H2 img{
-                    height: 1000px;
-                    width: 100%;
-                }
+
+    .textoH23 {
+        color: wheat;
+        text-align: justify;
+        justify-items: center;
+        position: relative;
+        top: 2rem;
+        width: 110vh;
+        height: 64.034151547492vh;
+        padding: 2%;
+        border-radius: 5%;
+        font-size: 1rem;
+    }
+
+    .imagen1H img {
+        height: 1000px;
+        width: 105%;
+    }
+
+    .imagen1H2 img {
+        height: 1000px;
+        width: 100%;
+    }
 }
 
 .arribaDeCarouselA {
@@ -545,9 +553,10 @@ header {
         left: 2.5grem;
         width: 80%;
     }
-                p{
-                    font-size: 12px;
-                }
+
+    p {
+        font-size: 12px;
+    }
 }
 
 .acordeon {
@@ -562,43 +571,44 @@ header {
 
 .textoDeBoulder1 p {
     grid-area: textodeboulder1;
-    width: 50rem;
-    height: 25rem;
-    margin-top: 1.25rem;
+    width: 50vh;
+    height: 10rem;
+
     color: aliceblue;
     padding: 12, 5rem;
     align-self: center;
     text-align: justify;
-    font-size: 1.25rem;
-    margin: 2rem;
+    font-size: 100%;
+    right: 3rem;
+    margin-top: 4rem;
 }
 
 .textoDeBoulder2 p {
     grid-area: textodeboulder2;
-    width: 50rem;
-    height: 25rem;
+    width: 50vh;
+    height: 10rem;
+
     color: aliceblue;
     padding: 12, 5rem;
     align-self: center;
     text-align: justify;
-    font-size: 1.25rem;
-    position: relative;
-    bottom: 3.125rem;
+    font-size: 100%;
+    right: 3rem;
+
 }
 
 .textoDeBoulder3 p {
     grid-area: textodeboulder3;
-    width: 50rem;
-    height: 25rem;
-    margin-top: 1.25rem;
+    width: 50vh;
+    height: 10rem;
+
     color: aliceblue;
     padding: 12, 5rem;
     align-self: center;
     text-align: justify;
-    font-size: 1.25rem;
-    margin: 2rem;
-    position: relative;
-    bottom: 2.50rem;
+    font-size: 100%;
+    right: 3rem;
+
 }
 
 .btn {
@@ -612,6 +622,7 @@ header {
     position: relative;
 
 }
+
 /* CONTACTANOS */
 
 
@@ -634,7 +645,7 @@ header {
             height: 0px;
             color: rgb(255, 255, 255);
             position: relative;
-            left: 21.875rem;
+            left: 13.875rem;
             bottom: 12.5rem;
 
             h3 {
@@ -788,9 +799,9 @@ footer {
         grid-template-areas:
             "presentacion"
             "descripcion"
-
+        ;
+        
     }
-
     .acordeon {
         img {
             width: 100%;
@@ -857,11 +868,12 @@ footer {
         text-align: center;
         bottom: 53.125rem;
         color: aliceblue;
-        right: 2.5rem;
+        right: 1.5rem;
         font-size: 14px;
         background-color: rgba(61, 55, 55, 0.452);
         padding: 1rem;
         border-radius: 5%;
+        left: 4.5rem;
     }
 
     .presentaciondeboulder {
@@ -870,7 +882,7 @@ footer {
         align-items: center;
         justify-content: center;
 
-        width: 20rem;
+        width: 100%;
 
     }
 
@@ -888,7 +900,7 @@ footer {
     }
 
     .descripcion {
-        width: 20rem;
+        width: 100%;
         text-align: center;
         flex-wrap: wrap;
         align-self: flex-start;
@@ -924,15 +936,22 @@ footer {
     }
 
     .arribaDeCarouselA {
-        height: 1800px;
+        height: 110%;
     }
 
     .card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "card"
+            "card"
+            "card"
+        ;
         overflow: hidden;
-        width: 90%;
-        right: 4rem;
-        top: 20px;
-
+        width: 80%;
+        right: 2rem;
+        bottom: -2rem;
         h5 {
             font-size: 2vh;
         }
@@ -943,7 +962,7 @@ footer {
 
         .imgH {
             position: relative;
-            right: 3rem;
+            right: 1.5rem;
 
             img {
                 width: 90%;
@@ -977,12 +996,12 @@ footer {
             grid-area: textoSb1;
 
             p {
-                width: 18rem;
-                height: 100px;
                 font-size: 12px;
+                height: 100px;
+                width: 90%;
                 position: relative;
-                right: 1.2rem;
-                bottom: 2rem;
+                bottom: 5rem;
+                left: 1rem;
             }
 
         }
@@ -1001,11 +1020,11 @@ footer {
             grid-area: textoSb2;
 
             p {
-                width: 18rem;
-                height: 100px;
                 font-size: 12px;
+                height: 100px;
+                width: 90%;
                 position: relative;
-                bottom: 11rem;
+                bottom: 12rem;
                 left: 1rem;
             }
 
@@ -1017,7 +1036,7 @@ footer {
             img {
                 width: 78%;
                 position: relative;
-                bottom: 9rem;
+                bottom: 15rem;
             }
         }
 
@@ -1027,23 +1046,25 @@ footer {
             p {
                 font-size: 11px;
                 height: 100px;
-                width: 18rem;
+                width: 90%;
                 position: relative;
-                bottom: 12rem;
-                right: 1.3rem;
+                bottom: 13rem;
+                left: 1rem;
             }
         }
-        
+
     }
-    .wallpaperSobreBoulder{
-        
-        
-        img{
-            width: 20rem;
+
+    .wallpaperSobreBoulder {
+
+
+        img {
+            width: 100%;
         }
     }
+
     .arribaDeHotel {
-        height: 1500px;
+        height: 2100px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -1055,48 +1076,53 @@ footer {
 
         .imagen1H {
             grid-area: imagen1H;
-            img{
-                width: 19.625rem;
+            
+
+            img {
+                width: 100%;
             }
         }
 
         .imagen1H2 {
             grid-area: imagen1H2;
-            img{
-                width: 19.625rem;
+
+            img {
+                width: 100%;
                 position: relative;
                 top: 2rem;
+                height: 1000px;
             }
         }
 
-        .textoH23{
+        .textoH23 {
             grid-area: textoH1;
-            width: 18.75rem;
+            width: 90%;
             height: 80%;
-            height: 200px;
-            font-size: 10px;
             
-        
+            font-size: 12px;
+
+
+        }
     }
-    }
+
     .contactanos {
         img {
             height: 400px;
         }
     }
 
-    .formularioContactanos{
+    .formularioContactanos {
         width: 19.375rem;
         position: relative;
         top: 3rem;
         right: 5.5rem;
 
-        h3{
+        h3 {
             position: relative;
             bottom: 19rem;
             width: 18rem;
             text-align: center;
-            left: -25rem;
+            left: -16rem;
         }
     }
 
@@ -1275,7 +1301,7 @@ footer {
     }
 
     .carousel-item h3 {
-       /*  width: 30rem;
+        /*  width: 30rem;
         position: absolute;
         text-align: center;
 
@@ -1319,6 +1345,7 @@ footer {
         justify-self: flex-start;
         position: relative;
         bottom: 20rem;
+        left: 1rem;
     }
 
     .presentacion h2 {
@@ -1326,11 +1353,12 @@ footer {
         top: 12rem;
         text-align: center;
         font-size: 60px;
-        
+
     }
 
-    .descripcion {
+    .descripcion p{
         width: 100%;
+        left: 8rem;
         text-align: center;
         flex-wrap: wrap;
         align-self: center;
@@ -1372,14 +1400,16 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        .card-group{
+
+        .card-group {
             height: 1800px;
         }
-        .card{
+
+        .card {
             overflow: hidden;
             width: 750px;
             height: 32%;
-            left: 4rem;
+            right: 4rem;
             top: 20px;
             grid-area: card1234;
 
@@ -1399,7 +1429,7 @@ footer {
                     position: relative;
                     width: 90%;
                     padding: 1%;
-                    
+
                 }
             }
         }
@@ -1439,7 +1469,7 @@ footer {
                 height: 100px;
                 font-size: 16px;
                 position: relative;
-                left: 2rem;
+                left: 3rem;
                 bottom: 2rem;
             }
 
@@ -1459,7 +1489,7 @@ footer {
 
         .textoDeBoulder2 {
             grid-area: textoSb2;
-            
+
             p {
                 width: 40rem;
                 height: 100px;
@@ -1476,6 +1506,7 @@ footer {
             position: relative;
             left: 1.7rem;
             bottom: 6rem;
+
             img {
                 width: 85%;
                 position: relative;
@@ -1491,16 +1522,18 @@ footer {
                 height: 100px;
                 width: 40rem;
                 position: relative;
-                bottom: 16rem;
-                left: 1rem;
-                
+                bottom: 14rem;
+                left: 3rem;
+
             }
         }
 
     }
-    .wallpaperSobreBoulder{
-    
-        img{ width: 100%;
+
+    .wallpaperSobreBoulder {
+
+        img {
+            width: 100%;
         }
     }
 
@@ -1518,121 +1551,125 @@ footer {
 
         .imagen1H {
             grid-area: imagen1H;
-            img{   
-            width: 100%;
+
+            img {
+                width: 100%;
             }
         }
 
         .imagen1H2 {
             grid-area: imagen1H2;
-            img{   
+
+            img {
                 width: 100%;
                 height: 1000px;
-                }
+            }
         }
 
         .textoH23 {
             grid-area: textoH1;
             width: 45rem;
             height: 200px;
-            font-size: 16px;
+            font-size: 2vh;
             position: relative;
-            left: 7.5rem;
+            
         }
-        
-        
+
+
     }
 
     .contactanos {
         img {
             height: 1070px;
         }
-    
+
 
         .formularioContactanos {
-        width: 40rem;
-        position: relative;
-        bottom: 16rem;
-        right: 3rem;
-                .divh3 {
-                        h3{
-                        position: relative;
-                        bottom: 2rem;
-                        width:30rem;
-                        right: 20rem;
-                        text-align: center;
-                            
-                }    
+            width: 40rem;
+            position: relative;
+            bottom: 35rem;
+            right: 3rem;
+
+            .divh3 {
+                h3 {
+                    position: relative;
+                    bottom: 20rem;
+                    width: 30rem;
+                    right: 12rem;
+                    text-align: center;
+
+                }
             }
-}
-    }
-footer {
-    width: 100%;
-}
-
-.containerFooter {
-    display: flex;
-
-    .uno-dos {
-
-        font-size: 15px;
-        position: relative;
-        top: 10rem;
-        right: 3.75rem;
-        display: inline;
-        justify-content: space-between;
-        color: cadetblue;
-        margin: 2rem;
-
-
+        }
     }
 
-    .uno-tres {
-
-        font-size: 15px;
-        position: relative;
-        top: 160px;
-        right: 5px;
-        display: inline;
-        justify-content: space-between;
-        color: rgb(103, 164, 167);
-        margin: 2rem;
-
-
+    footer {
+        width: 100%;
     }
 
-    .dos-tres {
-        font-size: 10px;
-        position: relative;
-        right: 60px;
-        top: 140px;
+    .containerFooter {
+        display: flex;
 
+        .uno-dos {
+
+            font-size: 15px;
+            position: relative;
+            top: 10rem;
+            right: 3.75rem;
+            display: inline;
+            justify-content: space-between;
+            color: cadetblue;
+            margin: 2rem;
+
+
+        }
+
+        .uno-tres {
+
+            font-size: 15px;
+            position: relative;
+            top: 160px;
+            right: 5px;
+            display: inline;
+            justify-content: space-between;
+            color: rgb(103, 164, 167);
+            margin: 2rem;
+
+
+        }
+
+        .dos-tres {
+            font-size: 10px;
+            position: relative;
+            right: 60px;
+            top: 140px;
+
+        }
+
+        .dos-cuatro {
+            font-size: 10px;
+            position: relative;
+            right: 10px;
+            top: 140px;
+
+        }
+
+        .sobreboulder123 {
+            width: 200px;
+        }
     }
 
-    .dos-cuatro {
-        font-size: 10px;
-        position: relative;
-        right: 10px;
-        top: 140px;
-
-    }
-
-    .sobreboulder123 {
+    .mapadeboulder iframe {
         width: 200px;
+        height: 200px;
     }
-}
 
-.mapadeboulder iframe {
-    width: 200px;
-    height: 200px;
-}
+    .redes-sociales {
+        display: flex;
+        display: none;
+    }
 
-.redes-sociales {
-    display: flex;
-    display: none;
-}
-
-.redes-sociales ul li a {
-    display: none;
-}
+    .redes-sociales ul li a {
+        display: none;
+    }
 }

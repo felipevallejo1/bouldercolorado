@@ -354,41 +354,37 @@ header {
 
 .textoDeBoulder1 p {
   grid-area: textodeboulder1;
-  width: 50rem;
-  height: 25rem;
-  margin-top: 1.25rem;
+  width: 50vh;
+  height: 10rem;
   color: aliceblue;
   padding: 12, 5rem;
   align-self: center;
   text-align: justify;
-  font-size: 1.25rem;
-  margin: 2rem; }
+  font-size: 100%;
+  right: 3rem;
+  margin-top: 4rem; }
 
 .textoDeBoulder2 p {
   grid-area: textodeboulder2;
-  width: 50rem;
-  height: 25rem;
+  width: 50vh;
+  height: 10rem;
   color: aliceblue;
   padding: 12, 5rem;
   align-self: center;
   text-align: justify;
-  font-size: 1.25rem;
-  position: relative;
-  bottom: 3.125rem; }
+  font-size: 100%;
+  right: 3rem; }
 
 .textoDeBoulder3 p {
   grid-area: textodeboulder3;
-  width: 50rem;
-  height: 25rem;
-  margin-top: 1.25rem;
+  width: 50vh;
+  height: 10rem;
   color: aliceblue;
   padding: 12, 5rem;
   align-self: center;
   text-align: justify;
-  font-size: 1.25rem;
-  margin: 2rem;
-  position: relative;
-  bottom: 2.50rem; }
+  font-size: 100%;
+  right: 3rem; }
 
 .btn {
   color: #212529;
@@ -416,7 +412,7 @@ header {
       height: 0px;
       color: white;
       position: relative;
-      left: 21.875rem;
+      left: 13.875rem;
       bottom: 12.5rem; }
       .contactanos .formularioContactanos .divh3 h3 {
         font-size: 2.5rem;
@@ -518,17 +514,18 @@ footer {
     text-align: center;
     bottom: 53.125rem;
     color: aliceblue;
-    right: 2.5rem;
+    right: 1.5rem;
     font-size: 14px;
     background-color: rgba(61, 55, 55, 0.452);
     padding: 1rem;
-    border-radius: 5%; }
+    border-radius: 5%;
+    left: 4.5rem; }
   .presentaciondeboulder {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 20rem; }
+    width: 100%; }
   .presentacion {
     align-self: flex-start;
     justify-self: flex-start;
@@ -538,7 +535,7 @@ footer {
     text-align: center;
     font-size: 60px; }
   .descripcion {
-    width: 20rem;
+    width: 100%;
     text-align: center;
     flex-wrap: wrap;
     align-self: flex-start; }
@@ -557,19 +554,23 @@ footer {
     position: relative;
     bottom: 2rem; }
   .arribaDeCarouselA {
-    height: 1800px; }
+    height: 110%; }
   .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "card" "card" "card";
     overflow: hidden;
-    width: 90%;
-    right: 4rem;
-    top: 20px; }
+    width: 80%;
+    right: 2rem;
+    bottom: -2rem; }
     .card h5 {
       font-size: 2vh; }
     .card p {
       font-size: 1.3vh; }
     .card .imgH {
       position: relative;
-      right: 3rem; }
+      right: 1.5rem; }
       .card .imgH img {
         width: 90%; }
   .masInfoDeBoulder {
@@ -585,12 +586,12 @@ footer {
     .masInfoDeBoulder .textoDeBoulder1 {
       grid-area: textoSb1; }
       .masInfoDeBoulder .textoDeBoulder1 p {
-        width: 18rem;
-        height: 100px;
         font-size: 12px;
+        height: 100px;
+        width: 90%;
         position: relative;
-        right: 1.2rem;
-        bottom: 2rem; }
+        bottom: 5rem;
+        left: 1rem; }
     .masInfoDeBoulder .fotosDeBoulderInfo2 {
       grid-area: fotoSb2; }
       .masInfoDeBoulder .fotosDeBoulderInfo2 img {
@@ -600,31 +601,31 @@ footer {
     .masInfoDeBoulder .textoDeBoulder2 {
       grid-area: textoSb2; }
       .masInfoDeBoulder .textoDeBoulder2 p {
-        width: 18rem;
-        height: 100px;
         font-size: 12px;
+        height: 100px;
+        width: 90%;
         position: relative;
-        bottom: 11rem;
+        bottom: 12rem;
         left: 1rem; }
     .masInfoDeBoulder .fotosDeBoulderInfo3 {
       grid-area: fotoSb3; }
       .masInfoDeBoulder .fotosDeBoulderInfo3 img {
         width: 78%;
         position: relative;
-        bottom: 9rem; }
+        bottom: 15rem; }
     .masInfoDeBoulder .textoDeBoulder3 {
       grid-area: textoSb3; }
       .masInfoDeBoulder .textoDeBoulder3 p {
         font-size: 11px;
         height: 100px;
-        width: 18rem;
+        width: 90%;
         position: relative;
-        bottom: 12rem;
-        right: 1.3rem; }
+        bottom: 13rem;
+        left: 1rem; }
   .wallpaperSobreBoulder img {
-    width: 20rem; }
+    width: 100%; }
   .arribaDeHotel {
-    height: 1500px;
+    height: 2100px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -632,19 +633,19 @@ footer {
     .arribaDeHotel .imagen1H {
       grid-area: imagen1H; }
       .arribaDeHotel .imagen1H img {
-        width: 19.625rem; }
+        width: 100%; }
     .arribaDeHotel .imagen1H2 {
       grid-area: imagen1H2; }
       .arribaDeHotel .imagen1H2 img {
-        width: 19.625rem;
+        width: 100%;
         position: relative;
-        top: 2rem; }
+        top: 2rem;
+        height: 1000px; }
     .arribaDeHotel .textoH23 {
       grid-area: textoH1;
-      width: 18.75rem;
+      width: 90%;
       height: 80%;
-      height: 200px;
-      font-size: 10px; }
+      font-size: 12px; }
   .contactanos img {
     height: 400px; }
   .formularioContactanos {
@@ -657,7 +658,7 @@ footer {
       bottom: 19rem;
       width: 18rem;
       text-align: center;
-      left: -25rem; }
+      left: -16rem; }
   footer {
     width: 100%; }
   .containerFooter {
@@ -788,14 +789,16 @@ footer {
     align-self: flex-start;
     justify-self: flex-start;
     position: relative;
-    bottom: 20rem; }
+    bottom: 20rem;
+    left: 1rem; }
   .presentacion h2 {
     position: relative;
     top: 12rem;
     text-align: center;
     font-size: 60px; }
-  .descripcion {
+  .descripcion p {
     width: 100%;
+    left: 8rem;
     text-align: center;
     flex-wrap: wrap;
     align-self: center;
@@ -826,7 +829,7 @@ footer {
       overflow: hidden;
       width: 750px;
       height: 32%;
-      left: 4rem;
+      right: 4rem;
       top: 20px;
       grid-area: card1234; }
       .arribaDeCarouselA .card h5 {
@@ -859,7 +862,7 @@ footer {
         height: 100px;
         font-size: 16px;
         position: relative;
-        left: 2rem;
+        left: 3rem;
         bottom: 2rem; }
     .masInfoDeBoulder .fotosDeBoulderInfo2 {
       grid-area: fotoSb2;
@@ -894,8 +897,8 @@ footer {
         height: 100px;
         width: 40rem;
         position: relative;
-        bottom: 16rem;
-        left: 1rem; }
+        bottom: 14rem;
+        left: 3rem; }
   .wallpaperSobreBoulder img {
     width: 100%; }
   .arribaDeHotel {
@@ -917,21 +920,20 @@ footer {
       grid-area: textoH1;
       width: 45rem;
       height: 200px;
-      font-size: 16px;
-      position: relative;
-      left: 7.5rem; }
+      font-size: 2vh;
+      position: relative; }
   .contactanos img {
     height: 1070px; }
   .contactanos .formularioContactanos {
     width: 40rem;
     position: relative;
-    bottom: 16rem;
+    bottom: 35rem;
     right: 3rem; }
     .contactanos .formularioContactanos .divh3 h3 {
       position: relative;
-      bottom: 2rem;
+      bottom: 20rem;
       width: 30rem;
-      right: 20rem;
+      right: 12rem;
       text-align: center; }
   footer {
     width: 100%; }
