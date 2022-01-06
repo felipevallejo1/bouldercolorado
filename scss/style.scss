@@ -125,10 +125,10 @@ header {
 
 /* CARROUSEL  */
 
-.carousel-item {
+/* .carousel-item {
     position: relative;
-
-}
+    
+} */
 
 .carousel-item h3 {
     /* width: 1000x; */
@@ -136,7 +136,7 @@ header {
     text-align: center;
     bottom: 27rem;
     color: aliceblue;
-    left: 35rem;
+    left: 10rem;
     font-size: 2.5rem;
     background-color: rgba(61, 55, 55, 0.452);
     padding: 2rem;
@@ -144,7 +144,7 @@ header {
 }
 
 .carousel-item p {
-    width: 112.5rem;
+    width: 70%;
     position: absolute;
     text-align: center;
     bottom: 15rem;
@@ -172,6 +172,10 @@ header {
 .videopresentacion{
     position: relative;
     left: 1.5rem;
+                iframe{
+                    width: 95%;
+                    height: 700px;
+                }
 }
 .presentaciondeboulder {
     font-family: 'Trispace', sans-serif;
@@ -242,11 +246,15 @@ header {
 .card {
     background-color: rgb(165, 99, 23);
     position: relative;
-    bottom: 0.625rem;
-    height: 33.125rem;
+    bottom: 2.925rem;
+    height: 37.125rem;
     margin: 5rem;
     width: 28.125rem;
-
+    p {
+        color: white;
+        font-size: 1px;
+        height: 60%;
+    }
 }
 
 .card img {
@@ -255,17 +263,19 @@ header {
     transform: scale(1.04);
     width: 25rem;
     position: relative;
-    left: 1.688rem;
+    right: 6rem;
     margin-top: 2rem;
 
 }
-
-.card p {
-    color: white;
+.imgH{
+    position: relative;
+    right: 0.7rem;
 }
+
 
 .card h5 {
     color: rgb(255, 255, 255);
+    font-size: 95%;
 }
 
 .debajoDeCartas {
@@ -352,16 +362,19 @@ header {
 
 .carousel-item {
     position: relative;
-    height: 62.5rem
+    height: 62.5rem;
+    display: flex;
+    
 }
 
 .carousel-item h3 {
-    /* width: 1000x; */
+    width: 70%;
     position: absolute;
     text-align: center;
+    
     bottom: 27rem;
     color: aliceblue;
-    left: 35rem;
+    /* left: 25rem; */
     font-size: 2.5rem;
     background-color: rgba(61, 55, 55, 0.452);
     padding: 2rem;
@@ -369,12 +382,12 @@ header {
 }
 
 .carousel-item p {
-    width: 112.5rem;
-    position: absolute;
+    width: 85%;
+    position: relative;
     text-align: center;
-    bottom: 15rem;
+    bottom: 20rem;
     color: aliceblue;
-    left: 5rem;
+    left: 7rem;
     font-size: 1.25rem;
     background-color: rgba(61, 55, 55, 0.452);
     padding: 2rem;
@@ -497,19 +510,30 @@ header {
     background-color: #502508;
     border: solid 3px black;
     display: flex;
-
-    p {
-        color: wheat;
-        text-align: justify;
-        justify-items: center;
-        position: relative;
-        top: 5rem;
-        width: 110vh;
-
-        padding: 2%;
-        border-radius: 5%;
-    }
-
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 1000px;
+    overflow: hidden;
+        .textoH23{
+                color: wheat;
+                text-align: justify;
+                justify-items: center;
+                position: relative;
+                top: 2rem;
+                width: 110vh;
+                height: 64.034151547492vh;
+                padding: 2%;
+                border-radius: 5%;
+                font-size: 1rem;
+                }
+                .imagen1H img{
+                    height: 1000px;
+                    width: 105%;
+                }  
+                .imagen1H2 img{
+                    height: 1000px;
+                    width: 100%;
+                }
 }
 
 .arribaDeCarouselA {
@@ -518,9 +542,12 @@ header {
 
     img {
         position: relative;
-        left: 4rem;
+        left: 2.5grem;
+        width: 80%;
     }
-
+                p{
+                    font-size: 12px;
+                }
 }
 
 .acordeon {
@@ -612,7 +639,8 @@ header {
 
             h3 {
                 font-size: 2.5rem;
-
+                position: relative;
+                right: 17rem;
             }
         }
 
@@ -682,38 +710,6 @@ footer {
         }
 
     }
-
-    .redes-sociales {
-
-        .redes-sociales ul li :hover {
-            transform: scale(1.2, 1.2);
-
-        }
-
-        ul li {
-            @include sizes(50px, 50px);
-            display: inline-block;
-            margin: 5px;
-
-            a {
-                display: block;
-                padding: 0 10px;
-                background-color: #333;
-                color: #fff;
-                line-height: 50px;
-                font-size: 18px;
-                box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
-                transition: .2s;
-                position: relative;
-                bottom: 10rem;
-                left: 100rem;
-            }
-
-        }
-
-
-    }
-
 }
 
 
@@ -1089,18 +1085,18 @@ footer {
         }
     }
 
-    .formularioContactanos {
+    .formularioContactanos{
         width: 19.375rem;
         position: relative;
         top: 3rem;
         right: 5.5rem;
 
-        h3 {
+        h3{
             position: relative;
-            bottom: 9rem;
-            right: 24rem;
+            bottom: 19rem;
             width: 18rem;
             text-align: center;
+            left: -25rem;
         }
     }
 
@@ -1279,16 +1275,17 @@ footer {
     }
 
     .carousel-item h3 {
-        width: 30rem;
+       /*  width: 30rem;
         position: absolute;
         text-align: center;
 
         color: aliceblue;
-
+ 
         font-size: 25px;
         background-color: rgba(61, 55, 55, 0.452);
         padding: 2rem;
-        border-radius: 5%;
+        border-radius: 5%; */
+        display: none;
     }
 
     .carousel-item p {
@@ -1297,7 +1294,7 @@ footer {
         text-align: center;
         bottom: 54.125rem;
         color: aliceblue;
-        left: 16rem;
+        left: 23rem;
         font-size: 16px;
         background-color: rgba(61, 55, 55, 0.452);
         padding: 1rem;
@@ -1329,13 +1326,16 @@ footer {
         top: 12rem;
         text-align: center;
         font-size: 60px;
+        
     }
 
     .descripcion {
-        width: 20rem;
+        width: 100%;
         text-align: center;
         flex-wrap: wrap;
-        align-self: flex-start;
+        align-self: center;
+        /* position: relative;
+        left: 9rem; */
     }
 
     .videopresentacion {
@@ -1377,9 +1377,9 @@ footer {
         }
         .card{
             overflow: hidden;
-            width: 740px;
+            width: 750px;
             height: 32%;
-            right: 4rem;
+            left: 4rem;
             top: 20px;
             grid-area: card1234;
 
@@ -1393,13 +1393,13 @@ footer {
 
             .imgH {
                 position: relative;
-                right: 3.3rem;
+                right: 1.5rem;
 
                 img {
                     position: relative;
                     width: 90%;
                     padding: 1%;
-                    right: 5rem;
+                    
                 }
             }
         }
@@ -1527,6 +1527,7 @@ footer {
             grid-area: imagen1H2;
             img{   
                 width: 100%;
+                height: 1000px;
                 }
         }
 
@@ -1536,7 +1537,7 @@ footer {
             height: 200px;
             font-size: 16px;
             position: relative;
-            left: 1.5rem;
+            left: 7.5rem;
         }
         
         
@@ -1546,91 +1547,92 @@ footer {
         img {
             height: 1070px;
         }
-    }
+    
 
-    .formularioContactanos {
+        .formularioContactanos {
         width: 40rem;
         position: relative;
         bottom: 16rem;
         right: 3rem;
+                .divh3 {
+                        h3{
+                        position: relative;
+                        bottom: 2rem;
+                        width:30rem;
+                        right: 20rem;
+                        text-align: center;
+                            
+                }    
+            }
+}
+    }
+footer {
+    width: 100%;
+}
 
-        h3{
-            position: relative;
-            bottom: 2rem;
-            right: 20rem;
-            width:30rem;
-            text-align: center;
-        }
+.containerFooter {
+    display: flex;
+
+    .uno-dos {
+
+        font-size: 15px;
+        position: relative;
+        top: 10rem;
+        right: 3.75rem;
+        display: inline;
+        justify-content: space-between;
+        color: cadetblue;
+        margin: 2rem;
+
+
     }
 
-    footer {
-        width: 100%;
+    .uno-tres {
+
+        font-size: 15px;
+        position: relative;
+        top: 160px;
+        right: 5px;
+        display: inline;
+        justify-content: space-between;
+        color: rgb(103, 164, 167);
+        margin: 2rem;
+
+
     }
 
-    .containerFooter {
-        display: flex;
+    .dos-tres {
+        font-size: 10px;
+        position: relative;
+        right: 60px;
+        top: 140px;
 
-        .uno-dos {
-
-            font-size: 15px;
-            position: relative;
-            top: 10rem;
-            right: 3.75rem;
-            display: inline;
-            justify-content: space-between;
-            color: cadetblue;
-            margin: 2rem;
-
-
-        }
-
-        .uno-tres {
-
-            font-size: 15px;
-            position: relative;
-            top: 160px;
-            right: 5px;
-            display: inline;
-            justify-content: space-between;
-            color: rgb(103, 164, 167);
-            margin: 2rem;
-
-
-        }
-
-        .dos-tres {
-            font-size: 10px;
-            position: relative;
-            right: 60px;
-            top: 140px;
-
-        }
-
-        .dos-cuatro {
-            font-size: 10px;
-            position: relative;
-            right: 10px;
-            top: 140px;
-
-        }
-
-        .sobreboulder123 {
-            width: 200px;
-        }
     }
 
-    .mapadeboulder iframe {
+    .dos-cuatro {
+        font-size: 10px;
+        position: relative;
+        right: 10px;
+        top: 140px;
+
+    }
+
+    .sobreboulder123 {
         width: 200px;
-        height: 200px;
     }
+}
 
-    .redes-sociales {
-        display: flex;
-        display: none;
-    }
+.mapadeboulder iframe {
+    width: 200px;
+    height: 200px;
+}
 
-    .redes-sociales ul li a {
-        display: none;
-    }
+.redes-sociales {
+    display: flex;
+    display: none;
+}
 
+.redes-sociales ul li a {
+    display: none;
+}
 }
